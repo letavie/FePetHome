@@ -1,0 +1,45 @@
+.select-container {
+    border: 2px solid #8b8b8b;
+    color: var(--PRIMARY-COLOR);
+    border-radius: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 14px;
+/* 
+    &:disabled {
+        border: 2px solid rgb(90, 90, 90);
+        appearance: none;
+        font-style: italic;
+    }
+
+    option {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &:focus {
+        box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.1);
+    }
+
+    &:focus-within {
+        border: 2px solid #3c3c3c;
+    } */
+}
+
+
+.sm {
+    width: 140px;
+    height: 24px;
+}
+
+.lg {
+    width: 240px;
+    height: 30px;
+}
+
+.inherit {
+    width: 100%;
+    height: 36px;
+}

@@ -1,0 +1,131 @@
+.navbar-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.logo {
+    width: 70px;
+    cursor: pointer;
+}
+
+ul {
+
+    list-style: none;
+    text-align: center;
+    position: relative;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    color: #273171;
+    padding: 10px 20px;
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    /* Transition effect for text color */
+}
+
+ul li:hover {
+    color: #4169e1;
+    /* Lighter blue color on hover */
+}
+
+ul li .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: solid 1px #ddd;
+    padding: 10px 0;
+    list-style: none;
+    min-width: 150px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    /* Aligns the text to the left */
+    z-index: 1000;
+    /* Ensures dropdowns appear above other elements */
+}
+
+ul li:hover .dropdown {
+    display: block;
+}
+
+ul li .dropdown li {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #333;
+    white-space: nowrap;
+    text-align: left;
+    /* Ensures text alignment to the left */
+    box-sizing: border-box;
+    /* Ensures padding is included in the width calculation */
+    transition: color 0.3s ease;
+    /* Transition effect for dropdown text color */
+}
+
+ul li .dropdown li:hover {
+    background-color: #f0f0f0;
+    color: #4169e1;
+    /* Lighter blue color on hover */
+}
+
+ul li .dropdown li .dropdown {
+    top: 0;
+    left: 100%;
+    padding: 0;
+    /* Remove padding from nested dropdown */
+    margin-left: 1px;
+    /* Add a small margin to separate the nested dropdown */
+    border-left: solid 1px #ddd;
+    /* Optional: Add a border to differentiate nested dropdown */
+    display: none;
+    /* Initially hide nested dropdown */
+    z-index: 1000;
+    /* Ensures nested dropdowns appear above other elements */
+    padding: 10px 0;
+}
+
+ul li .dropdown li:hover .dropdown {
+    display: block;
+    position: absolute;
+}
+
+.dropdown-icon {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-booking {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding: 2px 20px 2px 20px;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #efefef;
+    background-color: #000000;
+    border-style: none;
+    border-radius: 999px 999px 999px 999px;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.navbar-booking:hover{
+    background-color: #4169e1;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.section-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    min-height: 100vh; /* Ensure the container takes the full height of the viewport */
+}
+
+.section-one {
+    width: 50%; /* Set width to 50% */
+    padding: 20px; /* Optional: add some padding */
+    background-color: #fff; /* Optional: background color */
+    justify-content: start;
+}

@@ -1,0 +1,668 @@
+.container {
+  .first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5em;
+    .interview {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 15rem;
+      .introduct {
+        padding-right: 10em;
+        .introduct-text {
+          padding-bottom: 2em;
+          .introduct-header {
+            padding-bottom: 1em;
+            font-size: 1.5rem;
+            color: #110729;
+            font-weight: 600;
+            font-family: "Montserrat", Sans-serif;
+            text-transform: capitalize;
+          }
+          .introduct-body {
+            font-size: 4rem;
+            font-family: "Montserrat", Sans-serif;
+            text-shadow: 4px 2px 0px rgba(92, 149, 173, 0.3);
+            color: #251a3f;
+            font-weight: 600;
+            line-height: 74px;
+            font-style: italic;
+            padding-bottom: 0.6em;
+          }
+          .introduct-footer {
+            font-size: 2rem;
+            font-family: "Montserrat", Sans-serif;
+            text-shadow: 4px 2px 0px rgba(92, 149, 173, 0.3);
+            color: #251a3f;
+            font-weight: 600;
+          }
+        }
+        .introduct-btn {
+          display: flex;
+          align-items: center;
+          .introduct-btn-1 {
+            padding-right: 3em;
+          }
+          .introduct-btn-more {
+            background-color: transparent;
+            background-image: linear-gradient(80deg, #3d51ac 0%, #2475fb 100%);
+            border-radius: 90px 90px 90px 90px;
+            box-shadow: 10px 15px 30px 0px rgba(0, 0, 0, 0.15);
+            font-size: 1.13em;
+            color: white;
+            font-weight: bold;
+            padding: 10px 30px 10px 30px;
+          }
+          .introduct-btn-booking {
+            padding: 10px 30px 10px 30px;
+            font-family: "Montserrat", Sans-serif;
+            font-size: 1.12em;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #2475fb;
+            background-color: rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 1px 1px 1px 1px;
+            border-color: #4481fe;
+            border-radius: 50px 50px 50px 50px;
+            box-shadow: 10px 15px 30px 0px rgba(0, 0, 0, 0.1);
+            &:hover {
+              background-color: #2475fb;
+              color: white;
+              border-color: #2475fb;
+            }
+          }
+        }
+      }
+      .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          max-width: 100%;
+          max-height: 450px; /* Điều chỉnh chiều cao tối đa của ảnh */
+          height: auto;
+          width: auto;
+        }
+      }
+    }
+    .services {
+      display: flex;
+      align-items: center;
+      margin-left: 9em;
+      padding-bottom: 13rem;
+
+      .introduct {
+        padding-right: 6.9em;
+        .introduct-text {
+          padding-bottom: 2em;
+          .introduct-header {
+            padding-bottom: 1em;
+            font-size: 0.8rem;
+            color: #110729;
+            font-weight: 600;
+            font-family: "Montserrat", Sans-serif;
+            text-transform: capitalize;
+          }
+          .introduct-body {
+            font-size: 3.5rem;
+            font-family: "Montserrat", Sans-serif;
+            text-shadow: 4px 2px 0px rgba(92, 149, 173, 0.3);
+            color: #251a3f;
+            font-weight: 600;
+            line-height: 74px;
+            font-style: italic;
+            padding-bottom: 0.6em;
+          }
+          .introduct-footer {
+            font-size: 2rem;
+            font-family: "Montserrat", Sans-serif;
+            text-shadow: 4px 2px 0px rgba(92, 149, 173, 0.3);
+            color: #251a3f;
+            font-weight: 600;
+          }
+        }
+      }
+      .card {
+        display: flex;
+        .services-care {
+          margin-right: 3rem;
+          box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.25);
+          border-style: solid;
+          border-width: 1px 1px 1px 1px;
+          border-color: #000000;
+          border-radius: 5px 5px 5px 5px;
+        }
+        .services-shop {
+          margin-right: 3rem;
+          box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.25);
+          border-style: solid;
+          border-width: 1px 1px 1px 1px;
+          border-color: #000000;
+          border-radius: 5px 5px 5px 5px;
+        }
+        .services-hotel {
+          margin-right: 3rem;
+          box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.25);
+          border-style: solid;
+          border-width: 1px 1px 1px 1px;
+          border-color: #000000;
+          border-radius: 5px 5px 5px 5px;
+        }
+      }
+    }
+    .products {
+      display: flex;
+      align-items: center;
+      margin-left: 3.8em;
+      padding-bottom: 13rem;
+
+      .introduct {
+        padding-right: 6.9em;
+        .introduct-text {
+          padding-bottom: 2em;
+          .introduct-header {
+            padding-bottom: 1em;
+            font-size: 0.8rem;
+            color: #110729;
+            font-weight: 600;
+            font-family: "Montserrat", Sans-serif;
+            text-transform: capitalize;
+          }
+          .introduct-body {
+            font-size: 3.5rem;
+            font-family: "Montserrat", Sans-serif;
+            text-shadow: 4px 2px 0px rgba(92, 149, 173, 0.3);
+            color: #251a3f;
+            font-weight: 600;
+            line-height: 74px;
+            font-style: italic;
+          }
+          .introduct-footer {
+            color: #49b3f4;
+            font-family: "Montserrat", Sans-serif;
+            font-size: 3rem;
+            font-weight: 700;
+            text-shadow: 3px 1px 0px #000000;
+          }
+          .introduct-btn {
+            margin-top: 2em;
+            .introduct-btn-view {
+              padding: 10px 30px 10px 30px;
+              font-family: "Montserrat", Sans-serif;
+              font-size: 1em;
+              font-weight: 700;
+              text-transform: uppercase;
+              color: #2475fb;
+              background-color: white;
+              border-style: solid;
+              border-width: 1px 1px 1px 1px;
+              border-color: #4481fe;
+              border-radius: 50px 50px 50px 50px;
+              box-shadow: 10px 15px 30px 0px rgba(0, 0, 0, 0.1);
+              &:hover {
+                background-color: #071fd3;
+                color: white;
+                border-color: #2475fb;
+              }
+            }
+          }
+        }
+      }
+      .products-card {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+  .second {
+    .service-spa {
+      background-color: transparent;
+      background-image: linear-gradient(-80deg, rgba(35, 108, 255, 0.9) 15%, #273172 80%);
+      opacity: 0.9;
+      .service-spa-interview {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        .service-spa-text {
+          text-align: left;
+          .service-spa-title {
+            color: #ffffff;
+            text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+            margin: 0px 0px 15px 0px;
+            font-family: "Montserrat", Sans-serif;
+            font-size: 2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+          }
+          .service-spa-body {
+            color: #ffffff;
+            text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+            margin: 0px 0px 15px 0px;
+            font-family: "Montserrat", Sans-serif;
+            font-size: 1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-style: italic;
+          }
+        }
+        .introduct-btn {
+          padding: 10px 30px 10px 30px;
+          font-family: "Montserrat", Sans-serif;
+          font-size: 1.12em;
+          font-weight: 700;
+          text-transform: uppercase;
+          color: #2475fb;
+          background-color: white;
+          border-style: solid;
+          border-width: 1px 1px 1px 1px;
+          border-color: #4481fe;
+          border-radius: 50px 50px 50px 50px;
+          box-shadow: 10px 15px 30px 0px rgba(0, 0, 0, 0.1);
+          &:hover {
+            background-color: #071fd3;
+            color: white;
+            border-color: #2475fb;
+          }
+        }
+      }
+    }
+    .service-spa-in4 {
+      display: flex;
+      align-items: center;
+      padding-bottom: 3rem;
+      justify-content: center;
+      position: relative;
+      height: 700px;
+
+      .service-spa-img {
+        position: absolute;
+        top: -40px;
+        box-shadow: 10px 15px 30px 0px rgba(0, 0, 0, 0.2);
+
+        .spa-img {
+          max-width: 100%;
+          max-height: 32rem; /* Điều chỉnh chiều cao tối đa của ảnh */
+          height: auto;
+          width: 83em;
+        }
+        .service-spa-text {
+          position: absolute;
+          margin-left: 30px;
+          padding: 100px 50px 20px 20px;
+          .text-header {
+            padding-bottom: 1em;
+            font-size: 1rem;
+            color: #110729;
+            font-weight: 600;
+            font-family: "Montserrat", Sans-serif;
+            text-transform: capitalize;
+          }
+          .text-body {
+            font-size: 3rem;
+            font-family: "Montserrat", Sans-serif;
+            text-shadow: 4px 2px 0px rgba(92, 149, 173, 0.3);
+            color: #251a3f;
+            font-weight: 600;
+            line-height: 74px;
+            font-style: italic;
+            padding-bottom: 0.6em;
+          }
+          .text-footer {
+            font-size: 2rem;
+            color: #49b3f4;
+            font-family: "Montserrat", Sans-serif;
+            font-weight: 600;
+            text-shadow: 1.2px 1.2px 0px #000000;
+            &:hover {
+              color: #251a3f;
+            }
+          }
+          .service-spa-btn {
+            padding-top: 2rem;
+            .spa-btn-more {
+              padding: 10px 25px 10px 25px;
+              font-family: "Montserrat", Sans-serif;
+              font-size: 1rem;
+              font-weight: bold;
+              color: #ffffff;
+              background-color: #2475fb;
+              border-style: none;
+              border-radius: 90px 90px 90px 90px;
+              box-shadow: 10px 15px 30px 0px rgba(0, 0, 0, 0.15);
+              &:hover {
+                background-color: #08040f;
+              }
+            }
+          }
+        }
+        .service-spa-title {
+          .service-spa-title-header {
+            display: flex;
+            align-items: center;
+            padding: 13px;
+            background-color: #cccccc;
+            border-radius: 0px 0px 0px 0px;
+            box-shadow: 5px 10px 30px 0px rgba(0, 0, 0, 0.15);
+            .service {
+              font-size: 1.3rem;
+              font-weight: bold;
+              font-style: normal;
+              color: #333333;
+              padding-left: 3rem;
+              margin-right: 9rem;
+            }
+            .fast {
+              font-size: 1.3rem;
+              font-weight: bold;
+              font-style: normal;
+              color: #333333;
+            }
+          }
+          .service-spa-title-body {
+            padding: 20px 25px 20px 25px;
+          }
+        }
+      }
+    }
+    .service-care {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 10rem;
+      .introduct {
+        margin-left: 1.3em;
+        .introduct-text {
+          padding-bottom: 2em;
+          .introduct-header {
+            padding-bottom: 1em;
+            font-size: 1.5rem;
+            color: #110729;
+            font-weight: 600;
+            font-family: "Montserrat", Sans-serif;
+            text-transform: capitalize;
+          }
+          .introduct-body {
+            font-size: 4rem;
+            font-family: "Montserrat", Sans-serif;
+            text-shadow: 4px 2px 0px rgba(92, 149, 173, 0.3);
+            color: #251a3f;
+            font-weight: 600;
+            line-height: 74px;
+            font-style: italic;
+            padding-bottom: 0.6em;
+          }
+        }
+        .service-cut-in4 {
+          display: flex;
+          align-items: center;
+          padding-bottom: 4em;
+          .service-cut-list {
+            margin-right: 7em;
+            .list {
+              font-size: 1.4rem;
+              font-weight: bold;
+              text-transform: capitalize;
+              font-style: italic;
+              line-height: 2em;
+              .check-icon {
+                margin-right: 0.3em;
+                font-size: 1.5rem;
+              }
+              &:hover {
+                color: #2475fb;
+              }
+            }
+          }
+          .service-cut-price {
+            color: #000000;
+            font-size: 1.6rem;
+            font-weight: bold;
+            text-transform: capitalize;
+            font-style: italic;
+            line-height: 2em;
+            text-align: left;
+            .service-combo {
+              color: #49b3f4;
+              text-shadow: 2px 1px 0px #000000;
+              font-size: 38px;
+              font-weight: bold;
+              font-style: italic;
+              line-height: 1em;
+            }
+          }
+        }
+        .introduct-btn {
+          display: flex;
+          align-items: center;
+          .introduct-btn-1 {
+            padding-right: 3em;
+          }
+          .introduct-btn-more {
+            padding: 10px 30px 10px 30px;
+            font-family: "Montserrat", Sans-serif;
+            font-size: 1.12em;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #2475fb;
+            background-color: rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 1px 1px 1px 1px;
+            border-color: #4481fe;
+            border-radius: 50px 50px 50px 50px;
+            box-shadow: 10px 15px 30px 0px rgba(0, 0, 0, 0.1);
+            &:hover {
+              background-color: #2475fb;
+              color: white;
+              border-color: #2475fb;
+            }
+          }
+          .introduct-btn-booking {
+            background-color: #2475fb;
+            border-radius: 90px 90px 90px 90px;
+            box-shadow: 10px 15px 30px 0px rgba(0, 0, 0, 0.15);
+            font-size: 1.13em;
+            color: white;
+            font-weight: bold;
+            padding: 10px 30px 10px 30px;
+            &:hover {
+              background-color: #03070f;
+              color: white;
+              border-color: #02070f;
+            }
+          }
+        }
+      }
+      .image-care {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10em;
+        img {
+          max-width: 100%;
+          max-height: 40em; /* Điều chỉnh chiều cao tối đa của ảnh */
+          height: auto;
+          width: auto;
+        }
+      }
+    }
+    .service-hotline {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 13em;
+      .service-link {
+        color: #565656;
+        font-family: "Nunito Sans", Sans-serif;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.5em;
+        margin: 0px 0px 15px 0px;
+      }
+      .service-hotline-title {
+        margin: 0px 0px 25px 0px;
+        font-family: "Montserrat", Sans-serif;
+        font-size: 3.5rem;
+        font-weight: 700;
+        span {
+          color: #2575fc;
+          &:hover {
+            color: #080101;
+          }
+        }
+      }
+      .service-hotline-btn {
+        padding: 16px 55px 16px 55px;
+        font-family: "Montserrat", Sans-serif;
+        font-size: 1.2em;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #2475fb;
+        background-color: rgba(0, 0, 0, 0);
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: #4481fe;
+        border-radius: 50px 50px 50px 50px;
+        box-shadow: 19px 19px 40px 0px rgba(0, 0, 0, 0.1);
+        .hotline-text {
+          margin-left: 0.6em;
+        }
+        &:hover {
+          background-color: #2575fc;
+          color: white;
+        }
+      }
+    }
+    .service-cut {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 10rem;
+      .introduct {
+        .introduct-text {
+          padding-bottom: 0.5em;
+          .introduct-header {
+            padding-bottom: 1em;
+            font-size: 1.5rem;
+            color: #110729;
+            font-weight: 600;
+            font-family: "Montserrat", Sans-serif;
+            text-transform: capitalize;
+          }
+          .introduct-body {
+            font-size: 4rem;
+            font-family: "Montserrat", Sans-serif;
+            text-shadow: 4px 2px 0px rgba(92, 149, 173, 0.3);
+            color: #251a3f;
+            font-weight: 600;
+            line-height: 74px;
+            font-style: italic;
+            padding-bottom: 0.6em;
+          }
+        }
+        .service-cut-in4 {
+          display: flex;
+          align-items: center;
+          padding-bottom: 4em;
+          .service-cut-list {
+            margin-right: 7em;
+            .list {
+              font-size: 1.4rem;
+              font-weight: bold;
+              text-transform: capitalize;
+              font-style: italic;
+              line-height: 2em;
+              .check-icon {
+                margin-right: 0.3em;
+                font-size: 1.5rem;
+              }
+              &:hover {
+                color: #2475fb;
+              }
+            }
+          }
+          .service-cut-price {
+            color: #000000;
+            font-size: 1.6rem;
+            font-weight: bold;
+            text-transform: capitalize;
+            font-style: italic;
+            line-height: 2em;
+            text-align: left;
+            .service-combo {
+              color: #49b3f4;
+              text-shadow: 2px 1px 0px #000000;
+              font-size: 38px;
+              font-weight: bold;
+              font-style: italic;
+              line-height: 1em;
+            }
+          }
+        }
+        .introduct-btn {
+          display: flex;
+          align-items: center;
+          .introduct-btn-1 {
+            padding-right: 2.7em;
+          }
+          .introduct-btn-more {
+            padding: 10px 30px 10px 30px;
+            font-family: "Montserrat", Sans-serif;
+            font-size: 1.12em;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #2475fb;
+            background-color: rgba(0, 0, 0, 0);
+            border-style: solid;
+            border-width: 1px 1px 1px 1px;
+            border-color: #4481fe;
+            border-radius: 50px 50px 50px 50px;
+            box-shadow: 10px 15px 30px 0px rgba(0, 0, 0, 0.1);
+            &:hover {
+              background-color: #2475fb;
+              color: white;
+              border-color: #2475fb;
+            }
+          }
+          .introduct-btn-booking {
+            background-color: #2475fb;
+            border-radius: 90px 90px 90px 90px;
+            box-shadow: 10px 15px 30px 0px rgba(0, 0, 0, 0.15);
+            font-size: 1.13em;
+            color: white;
+            font-weight: bold;
+            padding: 10px 30px 10px 30px;
+            &:hover {
+              background-color: #03070f;
+              color: white;
+              border-color: #02070f;
+            }
+          }
+        }
+      }
+      .image-care {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-style: solid;
+        border-width: 4px 4px 4px 4px;
+        border-color: #ffffff;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.25);
+        margin-right: 4em;
+        img {
+          max-width: 590px;
+          max-height: 40em; /* Điều chỉnh chiều cao tối đa của ảnh */
+          height: auto;
+          width: auto;
+        }
+      }
+    }
+  }
+}

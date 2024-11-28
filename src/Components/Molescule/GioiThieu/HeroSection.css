@@ -1,0 +1,48 @@
+
+
+.hero {
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://png.pngtree.com/background/20230611/original/pngtree-cat-with-a-dog-in-a-dark-room-picture-image_3153708.jpg');
+    background-color: rgba(0, 0, 0, 0.5); /* Add this line to darken the background */
+}
+
+.hero-content {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin-right: 400px;
+}
+
+.hero-text {
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 1.2em;
+}
+
+.hero-author {
+    width: 50%;
+    gap: 20px;
+    display: flex;
+    color: white;
+    padding: 15px 0px 15px 0px;
+    border-style: dotted;
+    border-width: 1px 0px 1px 0px;
+    border-color: #afafaf;
+    margin-left: 200px;
+}
+
+.hero-icon {
+    display: flex;
+    gap: 10px;
+    size: 5px;
+}

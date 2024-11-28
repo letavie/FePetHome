@@ -1,0 +1,112 @@
+.container {
+  margin-left: 7rem;
+  padding-bottom: 4rem;
+  .title {
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    padding-bottom: 4rem;
+  }
+  .content {
+    display: flex;
+    .order-info-left {
+      flex: 2;
+      margin-right: 3rem;
+      .input-text {
+        padding: 0.7em;
+        height: auto;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #c7c5c5;
+        border-radius: 2px;
+        box-shadow: none;
+        box-sizing: border-box;
+        transition: all 0.2s linear;
+        width: 100%;
+      }
+      .text {
+        font-size: 1.1rem;
+        padding-bottom: 0.3rem;
+        font-weight: 490;
+      }
+      .content-title {
+        padding-bottom: 2rem;
+        font-size: 1.2rem;
+        padding: 20px 0 14px;
+        margin: 0 0 20px;
+        border-bottom: 1px solid #dddddd;
+        .text {
+          color: #222222;
+          font-weight: 600;
+          font-size: 1.4rem;
+        }
+      }
+      .phone-email-info {
+        display: flex;
+        .phone-info {
+          .input-text {
+            width: 22rem;
+          }
+          margin-right: 3rem;
+        }
+        .email-info {
+          .input-text {
+            width: 23rem;
+          }
+        }
+      }
+      .address-info {
+        display: flex;
+        gap: 45px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        .select {
+          border: 1.6px solid #ebebeb;
+          width: 22.5rem;
+          padding: 10px 0px 10px 0px;
+        }
+      }
+      .payment {
+        .payment-title {
+          margin-top: 2rem;
+          color: #222222;
+          font-weight: 600;
+          font-size: 1.4rem;
+          border-bottom: 1px solid #dddddd;
+          margin-bottom: 1.5rem;
+        }
+        ul {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          list-style-type: none;
+          padding: 0;
+          margin-left: -1rem;
+
+          li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+            .payment-input {
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+    }
+    .order-info-right {
+      flex: 2.3;
+      .order-button {
+        border-radius: 2px;
+        padding-top: 10px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        color: #ffffff;
+        border-color: #273172;
+        background-color: #273172;
+        width: 85%;
+        margin-top: 2rem;
+      }
+    }
+  }
+}

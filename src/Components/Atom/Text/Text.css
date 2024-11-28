@@ -1,0 +1,73 @@
+
+.subtitle1 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: if(var(--color-class), var(--color-class), var(--PRIMARY-COLOR));
+    cursor: text;
+}
+
+.subtitle2 {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+    color: if(var(--color-class), var(--color-class), var(--PRIMARY-COLOR));
+    cursor: text;
+}
+
+.body1 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: if(var(--color-class), var(--color-class), var(--PRIMARY-COLOR));
+    cursor: text;
+
+}
+
+.body2 {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    color: if(var(--color-class), var(--color-class), var(--PRIMARY-COLOR));
+    cursor: text;
+
+}
+
+.caption1 {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    color: if(var(--color-class), var(--color-class), var(--PRIMARY-COLOR));
+    cursor: text;
+}
+
+.caption2 {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    color: if(var(--color-class), var(--color-class), var(--PRIMARY-COLOR));
+    cursor: text;
+
+}
+
+.footnote {
+    font-size: 10px;
+    line-height: 18px;
+    font-weight: 500;
+    color: if(var(--color-class), var(--color-class), var(--PRIMARY-COLOR));
+    cursor: text;
+
+}
+
+.overline {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    letter-spacing: 1.2;
+    color: if(var(--color-class), var(--color-class), var(--PRIMARY-COLOR));
+    cursor: text;
+}
+
+.pointer {
+    cursor: pointer;
+}

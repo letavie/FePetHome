@@ -1,0 +1,124 @@
+.btn-component {
+    text-align: center;
+    border: none;
+    padding: 5px;
+    height: auto;
+    cursor: pointer;
+
+    &:disabled {
+        color: white;
+        background-color: #B9B9B9;
+    }
+
+    .btn-content {
+        display: flex;
+        align-items: center;
+
+        .btn-text {
+            padding: 0 12px 0 12px;
+            margin: auto;
+        }
+
+        .btn-label {
+            cursor: pointer;
+        }
+
+        .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.only-btn-component {
+    padding: 5px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    
+    &:hover:not(.transparent, .outlined, .icon-layout) {
+        background-color: #212c3d;
+        transition: background-color 0.12s;
+    }
+}
+
+.filled:not(:disabled) {
+    background-color: #2d3748;
+    color: #FFFFFF;
+
+    &:hover {
+        background-color: #212c3d !important;
+        transition: background-color 0.12s;
+    }
+}
+
+.transparent {
+    background-color: transparent;
+    color: red;
+    text-decoration: underline;
+    border: none;
+    box-shadow: none;
+
+    &:hover {
+        background-color: rgb(226, 226, 226);
+        transition: background-color 0.12s;
+    }
+}
+
+.transparent-no-underline {
+    background-color: transparent;
+    color: red;
+    border: none;
+    box-shadow: none;
+
+    &:hover {
+        background-color: rgb(226, 226, 226);
+        transition: background-color 0.12s;
+    }
+}
+
+.outlined {
+    background-color: transparent;
+    color: red;
+    text-decoration: underline;
+    border: 1px solid #2d3748;
+    box-shadow: none;
+
+    &:hover {
+        background-color: rgb(226, 226, 226);
+        transition: background-color 0.12s;
+    }
+}
+
+.icon-layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    color: #2d3748;
+
+    &:hover:not(.cancel-mark) {
+        background-color: #e6e6e6;
+        border-radius: 50%;
+        color: #232a36 !important;
+
+        transition: background-color 0.15s;
+    }
+
+    &:hover.cancel-mark {
+        color: rgb(215, 215, 215) !important;
+        transition: color 0.12s;
+    }
+}
+
+.icon-layout-blacktext {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    color: black;
+}

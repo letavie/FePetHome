@@ -1,0 +1,13 @@
+.data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 0 3rem 1rem 3rem;
+  width: 100%;
+}
+
+.data-grid-container {
+  width: 100%;
+  height: 100%; // Adjust the height as needed
+}

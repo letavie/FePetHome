@@ -1,0 +1,41 @@
+.pet-card-container {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: box-shadow 0.3s ease;
+  width: 900px;
+  margin-bottom: 2rem;
+
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .pet-card-detail {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+  }
+
+  .pet-img {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 8px;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  }
+
+  .pet-card-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

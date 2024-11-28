@@ -1,0 +1,211 @@
+.container {
+  .title {
+    display: flex;
+    align-items: center;
+    margin: 0 154px;
+    margin-top: 30px;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .cart-header {
+    display: flex;
+    display: flex;
+    padding: 10px 0;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+    margin: 0 150px;
+    margin-top: 30px;
+    background-color: #e0e0e0;
+    .info {
+      padding-right: 30rem;
+      margin-left: 10rem;
+    }
+    .price {
+      margin-left: -3rem;
+      margin-right: 7.5rem;
+    }
+    .quantity {
+      margin-right: 10rem;
+    }
+  }
+  .cartItem .cart-info {
+    display: flex;
+    display: flex;
+    padding: 7px 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    border-left: 2px solid rgba(0, 0, 0, 0.1);
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+    border-top-color: transparent;
+    font-weight: bold;
+    color: rgb(6, 6, 6);
+    margin: 0 150px;
+    align-items: center;
+
+    .Image {
+      img {
+        margin-left: 13px;
+        height: 8rem;
+        width: 8rem;
+        border: solid 2px rgba(0, 0, 0, 0.1);
+      }
+    }
+    .Name {
+      margin-left: 2rem;
+      width: 30.5%;
+      .name {
+        color: #1e73be;
+        font-size: 15px;
+        text-decoration: none;
+
+        &:hover {
+          color: rgb(71, 67, 67);
+        }
+      }
+    }
+    .Price {
+      width: 21.5%;
+      font-size: 15px;
+      display: flex;
+      justify-content: center;
+    }
+    .Quantity {
+      width: 20%;
+      font-size: 15px;
+      input {
+        width: 15%;
+        text-align: center;
+        border: none;
+        outline: none;
+      }
+      .box-quantity {
+        button {
+          border: none;
+          outline: none;
+          width: 23px;
+          height: 23px;
+          background: #1e73be;
+          color: #fff;
+          text-align: center;
+          padding: 0px;
+          border-radius: 3px;
+        }
+      }
+    }
+    .Total {
+      font-size: 15px;
+    }
+    .Delete {
+      color: #1e73be;
+      font-size: 150%;
+
+      &:hover {
+        color: rgb(71, 67, 67);
+      }
+    }
+  }
+
+  .btn-checkout {
+    height: 100%;
+    width: 13.5%;
+    background: transparent;
+    border-color: #273172;
+    background-color: #273172;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #555554;
+    border-radius: 5px;
+    margin-left: 77%;
+    padding-bottom: 7px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    &:hover {
+      background-color: #1e73be;
+      color: whitesmoke;
+    }
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    .discount {
+      margin-left: 10rem;
+      padding: 1.3rem;
+      margin-right: 31rem;
+      .input-code {
+        float: left;
+        box-sizing: border-box;
+        border: 2px solid #ccc8cb;
+        padding: 8px 6px 8px;
+        margin: 0 4px 0 0;
+        outline: 0;
+        line-height: 1;
+      }
+      button {
+        margin-left: 2rem;
+        padding: 8px 40px 8px 40px;
+        display: inline-block;
+        width: auto;
+        border-radius: 2px;
+        color: #ffffff;
+        border-color: #273172;
+        background-color: #273172;
+      }
+    }
+    .total {
+      .text {
+        font-size: 1.4rem;
+        margin-right: 0.4rem;
+        font-weight: 700;
+      }
+      .value {
+        font-size: 1.4rem;
+        font-weight: 700;
+      }
+    }
+  }
+  .cart-item {
+    margin-bottom: 20px;
+    .empty-cart {
+      padding-top: 40px;
+      text-align: center;
+      margin-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      align-items: center;
+      min-height: 350px;
+      justify-content: center;
+      img {
+        margin-bottom: 30px;
+      }
+      h1 {
+        margin-bottom: 12px;
+      }
+      h2 {
+        color: rgb(154, 146, 146);
+        margin-bottom: 23px;
+      }
+      .btn-shop {
+        height: 100%;
+        width: 100%;
+        background: transparent;
+        color: rgb(211, 69, 69);
+        text-align: center;
+        line-height: 40px;
+        border: 1px solid rgb(211, 69, 69);
+        border-radius: 50px;
+        padding: 10px 30px 10px 30px;
+        margin-bottom: 50px;
+        font-size: 20px;
+        &:hover {
+          background-color: rgb(211, 69, 69);
+          color: whitesmoke;
+        }
+      }
+    }
+  }
+}

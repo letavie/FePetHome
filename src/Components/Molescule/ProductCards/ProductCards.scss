@@ -1,0 +1,44 @@
+.product-card-container {
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    cursor: pointer;
+    text-align: center; // Add this line to center-align text
+    box-shadow: 0px 0px 10px -8px rgba(0,0,0,0.5);
+
+    &:hover {
+        transform: scale(1.02);
+        box-shadow: 0px 0px 20px -8px rgba(0,0,0,0.5);
+    }
+}
+
+.product-card-detail {
+    padding: 10px;
+
+    .product-img {
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    .product-card-current {
+        margin: 10px 0;
+
+        .product-card-current-text {
+            font-weight: bold;
+            color: red;
+        }
+    }
+
+    .product-card-whichpet,
+    .product-card-detail,
+    .product-card-price {
+        margin: 5px 0;
+    }
+}
